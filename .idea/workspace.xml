@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebea5e95-b3a5-433f-a42b-53333e7aa497" name="Changes" comment="Finally done">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RomanToDecimal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RomanToDecimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +40,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
@@ -55,7 +50,7 @@
       <recent name="RomanToDecimal" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RomanToDecimalTest">
     <configuration name="RomanToDecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RomanToDecimal" />
       <module name="RomanToDecimal" />
@@ -64,8 +59,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RomanToDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RomanToDecimalTest" />
+      <module name="RomanToDecimal" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RomanToDecimalTest" />
         <item itemvalue="Application.RomanToDecimal" />
       </list>
     </recent_temporary>
@@ -81,8 +84,18 @@
       <workItem from="1664803401267" duration="596000" />
       <workItem from="1665070334398" duration="2027000" />
       <workItem from="1665153242275" duration="4633000" />
-      <workItem from="1665490668173" duration="1258000" />
+      <workItem from="1665490668173" duration="1981000" />
+      <workItem from="1666293998864" duration="235000" />
+      <workItem from="1666297833718" duration="70000" />
     </task>
+    <task id="LOCAL-00001" summary="Finally done">
+      <created>1666009306768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666009306768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
