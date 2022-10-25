@@ -1,4 +1,9 @@
 public class RomanToDecimal {
+    /**
+     * This class is for the actual integers that we will define the characters of the roman numerals.
+     * @author 23truitt
+     *
+     */
     public static int romanToDecimal(String roman) {
         // parse roman letter by letter
         // find raw point value based on the letter
@@ -18,6 +23,9 @@ public class RomanToDecimal {
         //  string.length()
         //  array.length
         //  list.size(
+        /*
+          This for-loop gives all the letters of the roman numerals their respective numerical values.
+         */
         for (int i = 0; i < roman.length(); i++) {
             if (roman.charAt(i) == 'I') {
                 sum += 1;
@@ -37,6 +45,9 @@ public class RomanToDecimal {
                 return -1;
 
         }
+        /*
+          The invariants are the special cases that need to be defined in the code
+         */
         // INVARIANTS
         if(roman.contains("IV"))
             sum -= 2;
@@ -52,7 +63,7 @@ public class RomanToDecimal {
             sum -= 200;
         return sum;
     }
-
+    /** The main uses the arguments to make a for loop to repeat for each of the values that we have in the args */
     public static void main(String[] args) {
         for (String roman : args) { // for-each loop
             int decimal = romanToDecimal(roman);
